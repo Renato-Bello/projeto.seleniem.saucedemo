@@ -1,0 +1,42 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Outras IDEs
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# SO
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs / temporários (opcional)
+*.log
+*.tmp
+
+# Relatórios opcionais (se passar a usar)
+allure-results/
+allure-report/
+reports/
